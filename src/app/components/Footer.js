@@ -25,7 +25,7 @@ export default function Footer() {
             </p>
             <ul className="mt-6 space-y-4">
               <li className="mt-4">
-                <a href="/mortgage/">
+                <a href="/">
                   <img
                     alt="better mortgage homepage"
                     loading="lazy"
@@ -43,7 +43,7 @@ export default function Footer() {
                 </p>
               </li>
               <li>
-                <a href="/b/realestate/">
+                <a href="/">
                   <img
                     alt="better real estate page"
                     loading="lazy"
@@ -61,7 +61,7 @@ export default function Footer() {
                 </p>
               </li>
               <li>
-                <a href="https://www.bettercover.com/">
+                <a href="/">
                   <img
                     alt="better cover page"
                     loading="lazy"
@@ -79,7 +79,7 @@ export default function Footer() {
                 </p>
               </li>
               <li>
-                <a href="/content/home-inspection-checklist/">
+                <a href="/">
                   <img
                     alt="better inspect page"
                     loading="lazy"
@@ -97,7 +97,7 @@ export default function Footer() {
                 </p>
               </li>
               <li>
-                <a href="/title/">
+                <a href="/">
                   <img
                     alt="better inspect page"
                     loading="lazy"
@@ -123,7 +123,7 @@ export default function Footer() {
             <ul className="mt-2 space-y-4 md:mt-6">
               <li>
                 <a
-                  href="/how-much-house-can-i-afford"
+                  href="/"
                   className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
                 >
                   Home affordability calculator
@@ -132,7 +132,7 @@ export default function Footer() {
               <li>
                 <a
                   className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
-                  href="/mortgage-calculator/"
+                  href="/"
                 >
                   Mortgage calculator
                 </a>
@@ -140,7 +140,7 @@ export default function Footer() {
               <li>
                 <a
                   className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
-                  href="/free-mortgage-calculator/"
+                  href="/"
                 >
                   Free mortgage calculator
                 </a>
@@ -148,7 +148,7 @@ export default function Footer() {
               <li>
                 <a
                   className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
-                  href="/mortgage-calculator-with-taxes/"
+                  href="/"
                 >
                   Mortgage calculator with taxes
                 </a>
@@ -156,7 +156,7 @@ export default function Footer() {
               <li>
                 <a
                   className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
-                  href="/mortgage-calculator-with-pmi/"
+                  href="/"
                 >
                   Mortgage calculator with PMI
                 </a>
@@ -164,14 +164,14 @@ export default function Footer() {
               <li>
                 <a
                   className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
-                  href="/rent-vs-buy-calculator/"
+                  href="/"
                 >
                   Rent vs buy calculator
                 </a>
               </li>
               <li>
                 <a
-                  href="/heloc-calculator"
+                  href="/"
                   className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
                 >
                   HELOC payment calculator
@@ -180,7 +180,7 @@ export default function Footer() {
               <li>
                 <a
                   className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
-                  href="/heloc-vs-cashout-refi-calculator/"
+                  href="/"
                 >
                   HELOC vs cash-out refinance calculator
                 </a>
@@ -188,7 +188,7 @@ export default function Footer() {
               <li>
                 <a
                   className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
-                  href="/content/buying-a-house-online/"
+                  href="/"
                 >
                   Buy a home
                 </a>
@@ -196,7 +196,7 @@ export default function Footer() {
               <li>
                 <a
                   className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
-                  href="/content/buying-and-selling-a-home-at-the-same-time/"
+                  href="/"
                 >
                   Sell a home
                 </a>
@@ -204,7 +204,7 @@ export default function Footer() {
               <li>
                 <a
                   className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
-                  href="/content/home-inspection-checklist/"
+                  href="/"
                 >
                   Get home inspection
                 </a>
@@ -227,7 +227,7 @@ export default function Footer() {
               <li>
                 <a
                   className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
-                  href="/about-us/careers/"
+                  href="/"
                 >
                   Careers
                 </a>
@@ -235,7 +235,7 @@ export default function Footer() {
               <li>
                 <a
                   className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
-                  href="/about-us/media/"
+                  href="/"
                 >
                   Media
                 </a>
@@ -243,7 +243,7 @@ export default function Footer() {
               <li>
                 <a
                   className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
-                  href="/partnerships/"
+                  href="/"
                 >
                   Partner With Us
                 </a>
@@ -251,7 +251,7 @@ export default function Footer() {
               <li>
                 <a
                   className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
-                  href="/content/"
+                  href="/"
                 >
                   Learning center
                 </a>
@@ -259,7 +259,7 @@ export default function Footer() {
               <li>
                 <a
                   className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
-                  href="/faq/"
+                  href="/"
                 >
                   FAQs
                 </a>
@@ -298,14 +298,14 @@ export default function Footer() {
               <li>
                 <a
                   className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
-                  href="/faq/"
+                  href="/"
                 >
                   FAQ
                 </a>
               </li>
               <li>
                 <a
-                  href="/glossary"
+                  href="/"
                   className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
                 >
                   Glossary
@@ -327,7 +327,7 @@ export default function Footer() {
               <li>
                 <a
                   className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
-                  href="/about-us/privacy-policy/"
+                  href="/"
                 >
                   Privacy Policy
                 </a>
@@ -335,7 +335,7 @@ export default function Footer() {
               <li>
                 <a
                   className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
-                  href="/about-us/terms-of-use/"
+                  href="/"
                 >
                   Terms of Use
                 </a>
@@ -343,7 +343,7 @@ export default function Footer() {
               <li>
                 <a
                   className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
-                  href="/about-us/licensing-disclosure/"
+                  href="/"
                 >
                   Disclosures &amp; Licensing
                 </a>
@@ -351,14 +351,14 @@ export default function Footer() {
               <li>
                 <a
                   className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
-                  href="/about-us/affiliated-business/"
+                  href="/"
                 >
                   Affiliated Business
                 </a>
               </li>
               <li>
                 <a
-                  href="/browser-support"
+                  href="/"
                   className="hover-gradient-effect block py-1 text-link styles_hover-gradient-effect__AIX_8"
                 >
                   Browser Disclaimer
@@ -413,7 +413,7 @@ export default function Footer() {
           <div>
             <a
               aria-label="Facebook"
-              href="https://www.facebook.com/better/"
+              href="/"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -436,7 +436,7 @@ export default function Footer() {
           <div>
             <a
               aria-label="Instagram"
-              href="https://www.instagram.com/betterdotcom/"
+              href="/"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -461,7 +461,7 @@ export default function Footer() {
           <div>
             <a
               aria-label="Linkedin"
-              href="https://www.linkedin.com/company/betterdotcom/"
+              href="/"
               rel="noopener noreferrer"
               target="_blank"
             >
@@ -499,7 +499,7 @@ export default function Footer() {
             underwriting approval. See{" "}
             <a
               className="font-normal underline focus:outline-interactivePrimary focus:outline-1 focus:outline-offset-[theme(spacing.2xs)] hover:text-interactivePrimary text-inherit"
-              href="/with/one-day-mortgage-terms/"
+              href="/"
             >
               One Day Mortgage™ Terms and Conditions.
             </a>
@@ -518,7 +518,7 @@ export default function Footer() {
             underwriting approval. See{" "}
             <a
               className="font-normal underline focus:outline-interactivePrimary focus:outline-1 focus:outline-offset-[theme(spacing.2xs)] hover:text-interactivePrimary text-inherit"
-              href="/b/better-mortgage-one-day-heloc-promotion-terms-and-conditions/"
+              href="/"
             >
               One Day Heloc™ Terms and Conditions.
             </a>
@@ -549,11 +549,7 @@ export default function Footer() {
             Center, 80th Floor, New York, NY 10007. Loans made or arranged
             pursuant to a California Finance Lenders Law License. Not available
             in all states. Equal Housing Lender.{" "}
-            <a
-              className="underline"
-              data-qa="nmls-link"
-              href="http://www.nmlsconsumeraccess.org/EntityDetails.aspx/COMPANY/330511"
-            >
+            <a className="underline" data-qa="nmls-link" href="/">
               NMLS Consumer Access
             </a>
           </p>
@@ -565,7 +561,7 @@ export default function Footer() {
             corporate headquarters at 325-41 Chestnut Street, Suite 826,
             Philadelphia, PA 19106. Here is a full listing of Better Real
             Estate, LLC’s{" "}
-            <a className="underline" href="/with/better-realestate-license/">
+            <a className="underline" href="/">
               license numbers
             </a>
             . Better Real Estate, LLC provides access to real estate brokerage
@@ -574,34 +570,22 @@ export default function Footer() {
             Opportunity. All rights reserved.
           </p>
           <p className="font-normal leading-body m-0 p-0 text-left text-textPrimary text-xs mt-4">
-            <a
-              className="underline"
-              href="https://www.dos.ny.gov/licensing/docs/FairHousingNotice_new.pdf"
-            >
+            <a className="underline" href="/">
               New York State Housing and Anti-Discrimination Notice
             </a>
           </p>
           <p className="font-normal leading-body m-0 p-0 text-left text-textPrimary text-xs mt-4">
-            <a
-              className="underline"
-              href="https://media.better.com/pdfs/NYStandardizedOperatingProcedures.pdf"
-            >
+            <a className="underline" href="/">
               New York Standard Operating Procedures
             </a>
           </p>
           <p className="font-normal leading-body m-0 p-0 text-left text-textPrimary text-xs mt-4">
             Texas Real Estate Commission:{" "}
-            <a
-              className="underline"
-              href="https://www.har.com/mhf/terms/dispBrokerInfo?sitetype=aws&amp;cid=645736"
-            >
+            <a className="underline" href="/">
               Information About Brokerage Services
             </a>{" "}
             |{" "}
-            <a
-              className="underline"
-              href="https://www.trec.texas.gov/sites/default/files/pdf-forms/CN%201-4-1_1.pdf"
-            >
+            <a className="underline" href="/">
               Consumer Protection Notice
             </a>
           </p>
@@ -618,10 +602,7 @@ export default function Footer() {
             Insurance quotes and policies are offered through Better Cover, LLC.
             A Pennsylvania Resident Producer Agency. License #881593. Here is a
             full listing of Better Cover, LLC’s{" "}
-            <a
-              className="underline"
-              href="https://www.bettercover.com/licenses"
-            >
+            <a className="underline" href="/">
               license numbers
             </a>
             .

@@ -10,11 +10,10 @@ export default function Home() {
   const [activeTab2, setActiveTab2] = useState("Ourproducts");
 
   return (
-    <div className="w-full">
-      <Navbar />
+    <>
       <div className="bg-accentBorderInverseSecondary full-hero relative">
-        {/*Mobile View Floating button */}
-        {/* <div className="fixed m-2 bottom-0 right-0 cursor-pointer rounded-lg border-none z-50 hidden md:block transition-all duration-300 ease-in-out max-w-xs">
+        {/*Floating button */}
+        <div className="fixed m-2 bottom-0 right-0 cursor-pointer rounded-lg border-none z-50 hidden md:block transition-all duration-300 ease-in-out max-w-xs">
           <div className="transition-all duration-300 ease-in-out">
             <div className="flex items-center cursor-pointer md:w-72 md:shadow-md rounded-lg p-4 md:p-0 md:rounded-lg">
               <div className="w-[30%] relative max-w-24">
@@ -59,10 +58,10 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </div> */}
+        </div>
 
-        {/* Floating button lg */}
-        <div className="block md:hidden">
+        {/* mobile view floating button */}
+        {/* <div className="block md:hidden">
           <div className="fixed bottom-0 flex justify-center items-end w-full shadow-lg  z-[9999]">
             <div
               className={`bg-white w-full rounded-t-2xl p-2 shadow-md transition-all duration-300 ${
@@ -239,7 +238,7 @@ export default function Home() {
               )}
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Section 1 Starts Here */}
 
@@ -509,7 +508,7 @@ export default function Home() {
                 <br />
                 We've got answers
               </h2>
-              <div className="flex gap-3 overflow-x-scroll lg:gap-6 [&amp;::-webkit-scrollbar]:w-0 [&amp;::-webkit-scrollbar]:h-0">
+              <div className="flex gap-3 overflow-x-scroll lg:gap-6  [&::-webkit-scrollbar]:hidden">
                 {["Ourproducts", "Calculators", "Guides"].map((title) => (
                   <button
                     key={title}
@@ -1223,7 +1222,6 @@ export default function Home() {
 
         <hr className="border-t border-strokeDivider my-0 pb-lg"></hr>
       </div>
-      <Footer />
-    </div>
+    </>
   );
 }

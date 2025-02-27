@@ -140,8 +140,7 @@ export default function Home() {
   let xPosition = 0;
 
   return (
-    <div className="w-full">
-      <Navbar />
+    <>
       <section className="bg-green-100 py-16">
         <div className="m-auto max-w-screen-2xl px-6 md:px-14">
           <div className="flex flex-col justify-between gap-x-8">
@@ -165,13 +164,13 @@ export default function Home() {
                   </label>
                   <div className="relative w-full">
                     <div className="relative text-textPrimary rounded-md bg-white w-32  md:w-full border border-gray-300 pt-1 h-12 lg:h-16">
-                      <span className="absolute left-2 top-5 md:left-4 md:top-8 transform -translate-y-1/2 text-2xl md:text-5xl">
+                      <span className="absolute left-2 top-5 md:left-4 md:top-6 lg:top-8 transform -translate-y-1/2 text-2xl md:text-4xl lg:text-5xl">
                         $
                       </span>
                       <input
                         id="home-price"
                         type="tel"
-                        className=" pl-6 md:pl-14 w-full text-textPrimary bg-transparent outline-none text-2xl md:text-5xl "
+                        className=" pl-6 md:pl-14 w-full text-textPrimary bg-transparent outline-none text-2xl md:text-4xl lg:text-5xl "
                         value={homePrice}
                         onChange={handleHomePriceChange}
                       />
@@ -182,14 +181,14 @@ export default function Home() {
                   <p className="text-gray-900 font-bold block text-sm md:text-base">
                     Monthly payment
                   </p>
-                  <p className="text-2xl md:text-5xl font-bold text-gray-900 flex items-baseline">
+                  <p className="text-2xl md:text-3xl lg:text-5xl font-bold text-gray-900 flex items-baseline">
                     ${totalMonthlyPayment}/mo
                   </p>
                 </div>
                 <div className="hidden md:block">
                   <a
                     className="rounded-md text-base font-bold text-white bg-green-600 px-6 h-12 flex items-center justify-center min-w-[220px] hover:bg-green-700"
-                    href="/preapproval/nxt-purchase"
+                    href="/"
                   >
                     Get pre-approved
                   </a>
@@ -302,7 +301,7 @@ export default function Home() {
       focus:shadow-[0_0_0_4px_inset] disabled:text-gray-400 disabled:bg-gray-300 disabled:shadow-none 
       text-white bg-interactivePrimary hover:interactivePrimary focus:interactivePrimary focus:interactivePrimary active:interactivePrimary 
       px-6 h-12 w-auto inline-flex items-center justify-center min-w-[220px]"
-                    href="/preapproval/nxt-purchase"
+                    href="/"
                   >
                     Get pre-approved
                   </a>
@@ -369,7 +368,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="bg-gray-100 pt-16">
+      <section className="bg-gray-100 pt-16 pb-5">
         <div className="m-auto max-w-screen-2xl px-6 md:px-14">
           <div className="grid md:grid-cols-2 gap-8">
             <div className="w-full max-w-screen-md mx-auto">
@@ -551,7 +550,7 @@ export default function Home() {
             payment by calculating your{" "}
             <a
               className="font-normal underline focus:outline-interactivePrimary focus:outline-1 focus:outline-offset-[theme(spacing.2xs)] text-interactivePrimary"
-              href="/content/what-is-a-good-debt-to-income-ratio/"
+              href="/"
             >
               debt-to-income ratio (DTI)
             </a>
@@ -695,7 +694,7 @@ export default function Home() {
             Play around with different home prices, locations,{" "}
             <a
               className="font-normal underline focus:outline-interactivePrimary focus:outline-1 focus:outline-offset-[theme(spacing.2xs)] text-interactivePrimary"
-              href="/faq/loan-process/down-payment-definition/"
+              href="/"
             >
               down payments
             </a>
@@ -709,7 +708,7 @@ export default function Home() {
             payment amount that’s less than 20% of the home price,{" "}
             <a
               className="font-normal underline focus:outline-interactivePrimary focus:outline-1 focus:outline-offset-[theme(spacing.2xs)] text-interactivePrimary"
-              href="/content/what-is-pmi-or-private-mortgage-insurance/"
+              href="/"
             >
               private mortgage insurance (PMI)
             </a>{" "}
@@ -726,7 +725,7 @@ export default function Home() {
             costs, take a look at the{" "}
             <a
               className="font-normal underline focus:outline-interactivePrimary focus:outline-1 focus:outline-offset-[theme(spacing.2xs)] text-interactivePrimary"
-              href="/how-much-house-can-I-afford/"
+              href="/"
             >
               Better home affordability calculator
             </a>
@@ -736,7 +735,7 @@ export default function Home() {
             Fun fact:{" "}
             <a
               className="font-normal underline focus:outline-interactivePrimary focus:outline-1 focus:outline-offset-[theme(spacing.2xs)] text-interactivePrimary"
-              href="/content/how-to-calculate-property-tax-on-a-house/"
+              href="/"
             >
               Property tax rates
             </a>{" "}
@@ -754,7 +753,7 @@ export default function Home() {
             state. Here’s a helpful chart from{" "}
             <a
               className="font-normal underline focus:outline-interactivePrimary focus:outline-1 focus:outline-offset-[theme(spacing.2xs)] text-interactivePrimary"
-              href="https://www.forbes.com/sites/andrewdepietro/2023/09/01/property-taxes-by-state-a-breakdown-of-the-highest-and-lowest-property-taxes-by-state"
+              href="/"
             >
               Forbes
             </a>{" "}
@@ -790,8 +789,6 @@ export default function Home() {
           </p>
         </section>
       </div>
-
-      <Footer />
-    </div>
+    </>
   );
 }

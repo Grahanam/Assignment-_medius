@@ -1,7 +1,6 @@
 export default function Navbar() {
   return (
     <header className="sticky top-0 z-20 transition-all ease-in-out duration-300 bg-accentPrimary">
-      {/* <div>Logo</div> */}
       <nav className="m-auto flex max-w-screen-2xl justify-between p-5 md:py-5 md:px-10 xl:p-5">
         <div className="flex flex-row">
           <ul className="flex items-center">
@@ -34,12 +33,12 @@ export default function Navbar() {
                     Buy
                   </button>
                 </span>
-                <div className="absolute invisible left-0 right-0 pt-2 group-hover:visible">
-                  <div className="z-10 w-[22rem] rounded-base p-3 bg-white shadow-md">
+                <div className="absolute invisible text-black left-0 right-0 pt-2 group-hover:visible">
+                  <div className="z-10 w-[22rem] rounded p-3 bg-white shadow-md">
                     <div>
                       <a
-                        href="/preapproval/nxt-purchase"
-                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        href="/"
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded focus:bg-backgroundSecondary flex justify-between "
                       >
                         Apply now
                         <svg
@@ -61,8 +60,8 @@ export default function Navbar() {
                     </div>
                     <div>
                       <a
-                        href="/mortgage-rates"
-                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        href="/"
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded focus:bg-backgroundSecondary flex justify-between "
                       >
                         Purchase rates
                         <svg
@@ -84,8 +83,8 @@ export default function Navbar() {
                     </div>
                     <div>
                       <a
-                        href="/how-much-house-can-i-afford"
-                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        href="/"
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded focus:bg-backgroundSecondary flex justify-between "
                       >
                         Affordability calculator
                         <svg
@@ -107,8 +106,8 @@ export default function Navbar() {
                     </div>
                     <div>
                       <a
-                        href="/mortgage-calculator/"
-                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        href="/mortgage-calculator"
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded focus:bg-backgroundSecondary flex justify-between "
                       >
                         Mortgage calculator
                         <svg
@@ -130,8 +129,8 @@ export default function Navbar() {
                     </div>
                     <div>
                       <a
-                        href="/rent-vs-buy-calculator/"
-                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        href="/"
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded focus:bg-backgroundSecondary flex justify-between "
                       >
                         Rent vs buy calculator
                         <svg
@@ -153,8 +152,8 @@ export default function Navbar() {
                     </div>
                     <div>
                       <a
-                        href="/find-an-agent"
-                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        href="/"
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded focus:bg-backgroundSecondary flex justify-between "
                       >
                         Find an agent
                         <svg
@@ -176,8 +175,8 @@ export default function Navbar() {
                     </div>
                     <div>
                       <a
-                        href="/va-loan/"
-                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        href="/"
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded focus:bg-backgroundSecondary flex justify-between "
                       >
                         VA loans
                         <svg
@@ -199,8 +198,8 @@ export default function Navbar() {
                     </div>
                     <div>
                       <a
-                        href="/content/"
-                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        href="/"
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded focus:bg-backgroundSecondary flex justify-between "
                       >
                         Learning center
                         <svg
@@ -224,19 +223,19 @@ export default function Navbar() {
                 </div>
               </div>
             </li>
-            <li className="mx-5 hidden xl:block">
+            {/* <li className="mx-5 hidden xl:block">
               <div className="group relative">
                 <span className="">
                   <button className="rounded-full py-1 font-normal transition-all ease-in-out duration-300 h-12 px-4 text-textInversePrimary hover:bg-backgroundSecondary hover:text-textPrimary group-hover:bg-backgroundSecondary group-hover:text-textPrimary">
                     Refinance
                   </button>
                 </span>
-                <div className="absolute invisible left-0 right-0 pt-2 group-hover:visible">
-                  <div className="z-10 w-[22rem] rounded-base p-3 bg-white shadow-md">
+                <div className="absolute invisible text-black left-0 right-0 pt-2 group-hover:visible">
+                  <div className="z-10 w-[22rem] rounded p-3 bg-white shadow-md">
                     <div>
                       <a
-                        href="/preapproval/nxt-refinance"
-                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        href="/"
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded focus:bg-backgroundSecondary flex justify-between "
                       >
                         Apply Now
                         <svg
@@ -258,8 +257,8 @@ export default function Navbar() {
                     </div>
                     <div>
                       <a
-                        href="/refinance-rates"
-                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        href="/"
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded focus:bg-backgroundSecondary flex justify-between "
                       >
                         Refinance rates
                         <svg
@@ -281,8 +280,8 @@ export default function Navbar() {
                     </div>
                     <div>
                       <a
-                        href="/content/refinance-calculator/"
-                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        href="/"
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded focus:bg-backgroundSecondary flex justify-between "
                       >
                         Cash-out refinance calculator
                         <svg
@@ -304,8 +303,8 @@ export default function Navbar() {
                     </div>
                     <div>
                       <a
-                        href="/content/"
-                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        href="/"
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded focus:bg-backgroundSecondary flex justify-between "
                       >
                         Learning Center
                         <svg
@@ -328,7 +327,7 @@ export default function Navbar() {
                   </div>
                 </div>
               </div>
-            </li>
+            </li> */}
             <li className="mx-5 hidden xl:block">
               <div className="group relative">
                 <span className="">
@@ -336,12 +335,12 @@ export default function Navbar() {
                     HELOC
                   </button>
                 </span>
-                <div className="absolute invisible left-0 right-0 pt-2 group-hover:visible">
-                  <div className="z-10 w-[22rem] rounded-base p-3 bg-white shadow-md">
+                <div className="absolute invisible left-0 right-0 pt-2 group-hover:visible text-black">
+                  <div className="z-10 w-[22rem] rounded p-3 bg-white shadow-md">
                     <div>
                       <a
-                        href="/preapproval/nxt-heloc"
-                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        href="/"
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded focus:bg-backgroundSecondary flex justify-between "
                       >
                         Apply Now
                         <svg
@@ -363,8 +362,8 @@ export default function Navbar() {
                     </div>
                     <div>
                       <a
-                        href="/heloc-calculator"
-                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        href="/"
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded focus:bg-backgroundSecondary flex justify-between "
                       >
                         Calculate your Cash 💵
                         <svg
@@ -386,8 +385,8 @@ export default function Navbar() {
                     </div>
                     <div>
                       <a
-                        href="/heloc-vs-cashout-refi-calculator/"
-                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        href="/"
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded focus:bg-backgroundSecondary flex justify-between "
                       >
                         HELOC vs. Cash-out Refinance
                         <svg
@@ -409,8 +408,8 @@ export default function Navbar() {
                     </div>
                     <div>
                       <a
-                        href="/content/"
-                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        href="/"
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded focus:bg-backgroundSecondary flex justify-between "
                       >
                         Learning Center
                         <svg
@@ -441,12 +440,12 @@ export default function Navbar() {
                     Rates
                   </button>
                 </span>
-                <div className="absolute invisible left-0 right-0 pt-2 group-hover:visible">
-                  <div className="z-10 w-[22rem] rounded-base p-3 bg-white shadow-md">
+                <div className="absolute invisible left-0 right-0 pt-2 group-hover:visible text-black">
+                  <div className="z-10 w-[22rem] rounded p-3 bg-white shadow-md">
                     <div>
                       <a
-                        href="/mortgage-rates"
-                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        href="/"
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded focus:bg-backgroundSecondary flex justify-between "
                       >
                         Purchase mortgage rates
                         <svg
@@ -468,8 +467,8 @@ export default function Navbar() {
                     </div>
                     <div>
                       <a
-                        href="/refinance-rates"
-                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        href="/"
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded focus:bg-backgroundSecondary flex justify-between "
                       >
                         Refinance rates
                         <svg
@@ -491,8 +490,8 @@ export default function Navbar() {
                     </div>
                     <div>
                       <a
-                        href="/cash-out-refinance-rates"
-                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        href="/"
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded focus:bg-backgroundSecondary flex justify-between "
                       >
                         Refinance cash-out rates
                         <svg
@@ -514,8 +513,8 @@ export default function Navbar() {
                     </div>
                     <div>
                       <a
-                        href="/heloc-rates"
-                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        href="/"
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded focus:bg-backgroundSecondary flex justify-between "
                       >
                         HELOC rates
                         <svg
@@ -537,8 +536,8 @@ export default function Navbar() {
                     </div>
                     <div>
                       <a
-                        href="/va-loan-rates/"
-                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        href="/"
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded focus:bg-backgroundSecondary flex justify-between "
                       >
                         Purchase VA rates
                         <svg
@@ -569,12 +568,12 @@ export default function Navbar() {
                     Better+
                   </button>
                 </span>
-                <div className="absolute invisible left-0 right-0 pt-2 group-hover:visible">
-                  <div className="z-10 w-[22rem] rounded-base p-3 bg-white shadow-md">
+                <div className="absolute invisible left-0 right-0 pt-2 group-hover:visible text-black">
+                  <div className="z-10 w-[22rem] rounded p-3 bg-white shadow-md">
                     <div>
                       <a
                         href="https://www.bettercover.com/"
-                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded focus:bg-backgroundSecondary flex justify-between "
                       >
                         Get Insurance
                         <svg
@@ -596,8 +595,8 @@ export default function Navbar() {
                     </div>
                     <div>
                       <a
-                        href="/title/"
-                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        href="/"
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded focus:bg-backgroundSecondary flex justify-between "
                       >
                         Title and Closing
                         <svg
@@ -619,8 +618,8 @@ export default function Navbar() {
                     </div>
                     <div>
                       <a
-                        href="/b/attorney-match/"
-                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        href="/"
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded focus:bg-backgroundSecondary flex justify-between "
                       >
                         Better Attorney Match
                         <svg
@@ -642,8 +641,8 @@ export default function Navbar() {
                     </div>
                     <div>
                       <a
-                        href="/content/"
-                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        href="/"
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded focus:bg-backgroundSecondary flex justify-between "
                       >
                         Learning Center
                         <svg
@@ -665,8 +664,8 @@ export default function Navbar() {
                     </div>
                     <div>
                       <a
-                        href="/b/better-real-estate-partner-agents/"
-                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        href="/"
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded focus:bg-backgroundSecondary flex justify-between "
                       >
                         Better Agent Match
                         <span className="leading-body m-0 p-0 text-left text-sm ml-2 inline-block rounded-full bg-graph4Tertiary px-4 font-bold text-backgroundInversePrimary">
@@ -691,8 +690,8 @@ export default function Navbar() {
                     </div>
                     <div>
                       <a
-                        href="/b/duo/"
-                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded-base focus:bg-backgroundSecondary flex justify-between "
+                        href="/"
+                        className="px-5 py-3 hover:bg-backgroundSecondary group/sub-menu hover:rounded focus:bg-backgroundSecondary flex justify-between "
                       >
                         Better Duo
                         <span className="leading-body m-0 p-0 text-left text-sm ml-2 inline-block rounded-full bg-graph4Tertiary px-4 font-bold text-backgroundInversePrimary">
@@ -730,13 +729,13 @@ export default function Navbar() {
                   width="19"
                   height="18"
                   viewBox="0 0 19 18"
-                  className="transition-all ease-in-out group-hover:[&amp;_path]:fill-interactiveForegroundInversePrimary [&amp;_path]:fill-white h-3 w-3 md:h-4 md:w-4"
+                  className="transition-all ease-in-out h-3 w-3 md:h-4 md:w-4"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
                     d="M18.5 13.5L18.5 17C18.5 17.55 18.05 18 17.5 18C8.11 18 0.500002 10.39 0.500002 1C0.500002 0.450001 0.950003 0 1.5 0L4.99 0C5.54 0 5.99 0.450001 5.99 1C5.99 2.24 6.19 3.45 6.56 4.57C6.6 4.67 6.61 4.78 6.61 4.88C6.61 5.14 6.51 5.39 6.32 5.59L4.12 7.79C5.57 10.62 7.88 12.94 10.71 14.38L12.91 12.18C13.19 11.9 13.58 11.82 13.93 11.93C15.05 12.3 16.25 12.5 17.5 12.5C18.05 12.5 18.5 12.95 18.5 13.5Z"
-                    fill="#292B29"
+                    fill="#ffffff"
                   ></path>
                 </svg>
               </div>
